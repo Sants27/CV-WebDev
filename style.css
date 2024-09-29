@@ -1,9 +1,4 @@
 body, .navbar{
-    /* background: url('images/bg.png') rgba(0, 0, 0, 0.3);
-    background-blend-mode: multiply;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
     background-color: black !important; 
 }
 
@@ -17,8 +12,12 @@ body, .navbar{
     }
 }
 
+.col-lg-4.text-white.text-center.pt-5.pb-4 {
+    padding-top: 100px !important;
+}
+
 .section {
-    padding: 100px 0;
+    padding: 100px 0 0 0;
     position: relative;
 }
 
@@ -29,10 +28,6 @@ body, .navbar{
     margin: 0 0 15px;
     border-left: 5px solid #fc5356;
     padding-left: 15px;
-}
-
-.section-title {
-    padding-bottom: 45px;
 }
 
 .section-title p {
@@ -50,7 +45,7 @@ body, .navbar{
 
 .resume-box ul {
     margin: 0;
-    padding: 30px 20px;
+    padding: 20px;
     list-style: none;
 }
 
